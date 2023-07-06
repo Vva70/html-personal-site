@@ -1,0 +1,68 @@
+.attributions-main {
+    background-color: #176B87;
+    padding-left: 30px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 300px;
+    border: 10px solid #001C30;
+    border-radius: 10px;
+    background-color: #64CCC5;
+}
+
+.card a:link, .card a:visited, .card a:hover, .card a:active {
+    color: #001C30;
+    text-decoration: underline;
+}
+
+.top-gradient {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to bottom, #001C30, #176B87);
+    border-top: 10px solid #001C30;
+}
+
+.bottom-gradient {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to top, #001C30, #176B87);
+    border-bottom: 10px solid #001C30;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.return {
+    display: inline-block;
+    border: 5px solid #001C30;
+    background-color: #001C30;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 1.5rem;
+    width: 100px;
+    margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.return a:link, .return a:visited, .return a:hover, .return a:active {
+    color: #dafffb;
+    text-decoration: none;
+}

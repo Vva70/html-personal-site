@@ -1,0 +1,78 @@
+body {
+    background-color: #176B87;
+}
+
+.contact-page {
+    background-color: #176B87;
+    height: 100vh;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.contact-card {
+    background-color: #dafffb;
+    border: 10px solid #001C30;
+    border-radius: 10px;
+    padding: 30px;
+    z-index: 2;
+}
+
+.contact-card > h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.contact-card > h2 {
+    font-family: 'Gloock', serif;
+}
+
+.contact-page > .top-gradient {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to bottom, #001C30, #176B87);
+    border-top: 10px solid #001C30;
+    z-index: 1;
+}
+
+.contact-page > .bottom-gradient {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to top, #001C30, #176B87);
+    border-bottom: 10px solid #001C30;
+    z-index: 1;
+}
+
+.contact-card a:link, a:visited, a:hover, a:active {
+    color: #001C30;
+    text-decoration: underline;
+}
+
+.return {
+    border: 5px solid #001C30;
+    background-color: #001C30;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 1.5rem;
+    width: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.return a:link, a:visited, a:hover, a:active {
+    color: #dafffb;
+    text-decoration: none;
+}
+
+@media (max-height: 730px) {
+    .contact-container {
+        height: 700px;
+    }
+}

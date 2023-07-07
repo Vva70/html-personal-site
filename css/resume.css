@@ -24,7 +24,7 @@ h1 {
     justify-content: space-between;
     gap: 50px;
     max-width: 900px;
-    height: 200px;
+    /*height: 200px;*/
     padding-bottom: 10px;
 }
 
@@ -84,4 +84,11 @@ footer > p {
 .contact a:link, a:visited, a:hover, a:active {
     color: #dafffb;
     text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .resume-intro {
+        flex-direction: column;
+        gap: 10px;
+    }
 }

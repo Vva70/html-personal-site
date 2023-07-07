@@ -83,8 +83,8 @@ h2 {
 }
 
 .feature-card {
-    height: 200px;
-    width: 170px;
+    /*height: 200px;
+    width: 170px;*/
     text-align: center;
 }
 
@@ -140,16 +140,54 @@ hr {
     }
 
     #intro > .flex-container {
-        height: 575px;
+        height: 100vw;
         gap: 50px;
     }
 
     #features > .flex-container {
-        height: 875px;
-        gap: 70px;
+        height: 200vw;
+        gap: 6vw;
     }
 
     .portrait {
         order: -1;
+    }
+
+    .text-card {
+        width: 75vw;
+    }
+
+    .text-card h1 {
+        font-size: 6vw;
+        margin: .5rem;
+    }
+
+    .text-card p {
+        font-size: 3vw;
+        margin: .5rem;
+    }
+
+    .portrait, .portrait img {
+        height: 60vw;
+    }
+
+    .feature-image {
+        height: 30vw;
+        width: 45vw;
+
+    }
+
+    .feature-image img {
+        height: 30vw;
+    }
+
+    .feature-label {
+        width: 45vw;
+        height: 21vw;
+        font-size: 4.8vw;
+    }
+
+    .main-footer p {
+        font-size: 3vw;
     }
 }
